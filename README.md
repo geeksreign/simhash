@@ -9,5 +9,8 @@ delete duplicates of US stock corporation research documents with simhash algori
 
 用到的外部package包括jieba，simhash（可用pip直接安装）和langconv，后者用于中文简繁转换；
 
-此外，额外准备了分词会用到的停止词，个人词典，常用汉字（约3500个，用于去除局部中文乱码）和简繁对照文件。
+此外，额外准备了分词会用到的停止词stop_words_v0520.txt，个人词典abcChinesegamma.txt，常用汉字commonchinese.txt（约3500个，用于去除局部中文乱码）和简繁对照文件zh_wiki.py（与langconv.py同一目录）。
+
+代码中的文件目录为本地dir，具体应用时请修改。
+
 
